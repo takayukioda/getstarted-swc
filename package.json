@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.131",
+    "@swc/helpers": "^0.3.2"
+  }
+}
