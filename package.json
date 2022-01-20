@@ -1,5 +1,10 @@
 {
   "private": true,
+  "scripts": {
+    "build": "swc src --out-dir dist && tsc",
+    "prebundle": "npm run build",
+    "bundle": "spack"
+  },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -7,6 +12,15 @@
   "devDependencies": {
     "@swc/cli": "^0.1.55",
     "@swc/core": "^1.2.131",
-    "@swc/helpers": "^0.3.2"
-  }
+    "@swc/helpers": "^0.3.2",
+    "browserlist": "^1.0.1",
+    "typescript": "^4.5.4"
+  },
+  "browserlist": [
+    ">0.5% in JP",
+    "not dead",
+    "last 2 Chrome versions",
+    "last 2 FF versions",
+    "ie 11"
+  ]
 }

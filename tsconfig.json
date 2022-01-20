@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		/* Language and Environment */
+		"target": "esnext",
+		"lib": [
+			"es2017",
+			"dom"
+		],
+		"jsx": "preserve",
+		/* Modules */
+		"module": "esnext",
+		"moduleResolution": "node",
+		/* Emit */
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"declarationDir": "./dist"
+	},
+	"include": ["src"]
+}
